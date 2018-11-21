@@ -11,6 +11,7 @@ class PIDController:
 	self.ki_ = ki
 	self.kd_ = kd
 	self.max_windup_ = max_windup
+	self.a_ = kp+ki
 
     def reset(self):
         #TODO
